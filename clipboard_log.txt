@@ -360,3 +360,37 @@ if __name__ == "__main__":
 [2025-07-14 17:59:17] FILE: C:\Users\marvin\Desktop\police.docx (ext: .docx) (category: document) (from: C: - internal)
 [2025-07-14 17:59:23] PASTED: D:\police.docx (ext: .docx) (category: document) (to: D: - internal)
 [2025-07-14 18:01:22] FILE: C:\Users\marvin\Desktop\forms of ads.txt (ext: .txt) (category: document) (from: C: - internal)
+[2025-07-14 18:08:07] TEXT: refactor: Implement modular MVC architecture for clipboard logger
+
+- Separated concerns into distinct utility modules:
+  * utils/clipboard_utils.py - Handles clipboard content detection and retrieval
+  * utils/file_utils.py - Manages file categorization and metadata extraction
+  * utils/storage_utils.py - Determines storage type (internal/external/network/optical)
+  * utils/logger.py - Centralized logging functionality for all content types
+  * utils/file_monitor.py - Real-time file system monitoring for paste detection
+
+- Enhanced functionality:
+  * Added storage type detection using psutil to categorize drives
+  * Implemented file system monitoring with watchdog for paste operation tracking
+  * Added paste detection by correlating copied files with newly created files
+  * Enhanced logging to show both source and destination information
+
+- Improved maintainability:
+  * Moved from monolithic script to modular design following separation of concerns
+  * Each module has single responsibility (clipboard, files, storage, logging, monitoring)
+  * Main script (cliplog.py) now orchestrates components without implementation details
+  * Added proper error handling and cleanup mechanisms
+
+- Technical improvements:
+  * Added threading support for file monitoring
+  * Implemented proper resource cleanup with atexit handlers
+  * Enhanced file categorization with comprehensive extension mapping
+  * Added drive detection and storage type classification
+[2025-07-14 18:11:02] FILE: C:\Users\marvin\Desktop\landlord-and-tenant-act-2022.pdf (ext: .pdf) (category: document) (from: C: - internal)
+[2025-07-14 22:45:33] TEXT: pip install pywin32 wmi
+[2025-07-14 22:46:30] FILE: C:\Users\marvin\Pictures\01.png (ext: .png) (category: image) (from: C: - internal)
+[2025-07-14 22:46:31] FILE: C:\Users\marvin\Pictures\02.png (ext: .png) (category: image) (from: C: - internal)
+[2025-07-14 22:46:39] PASTED: C:\Users\marvin\Desktop\01.png (ext: .png) (category: image) (to: C: - internal)
+[2025-07-14 22:46:39] PASTED: C:\Users\marvin\Desktop\02.png (ext: .png) (category: image) (to: C: - internal)
+[2025-07-14 22:47:26] FILE: F:\landlord-and-tenant-act-2022.pdf (ext: .pdf) (category: document) (from: F: - external)
+[2025-07-14 22:47:59] PASTED: C:\Users\marvin\Desktop\landlord-and-tenant-act-2022.pdf (ext: .pdf) (category: document) (to: C: - internal)
