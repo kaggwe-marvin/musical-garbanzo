@@ -1,0 +1,28 @@
+[project]
+name = "cliplogger"
+version = "0.1.0"
+description = "A clipboard monitoring tool that logs text and file operations"
+authors = [
+    {name = "kaggwe-marvin",email = "129196464+kaggwe-marvin@users.noreply.github.com"}
+]
+license = "MIT"
+readme = "README.md"
+requires-python = "^3.9"
+dependencies = [
+    "pywin32 (>=311,<312)",
+    "psutil (>=7.0.0,<8.0.0)",
+    "wmi (>=1.5.1,<2.0.0)",
+    "watchdog (>=6.0.0,<7.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+black = "^25.1.0"
+flake8 = "^7.3.0"
+mypy = "^1.17.0"
+

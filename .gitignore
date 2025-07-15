@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+cliplog/
+
+# Poetry
+poetry.lock
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+clipboard_log.txt
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
