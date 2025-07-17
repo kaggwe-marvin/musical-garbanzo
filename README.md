@@ -12,12 +12,6 @@ A clipboard monitoring tool that logs text and file operations with storage type
 
 ## Installation
 
-1. Install Poetry (if not already installed):
-
-```bash
-curl -sSL https://install.python-poetry.org | python3 -
-```
-
 1. Install dependencies:
 
 ```bash
