@@ -1,3 +1,169 @@
 [2025-07-15 11:27:05] TEXT: poetry run python app/main.py
 [2025-07-15 11:27:32] FILE: D:\software\rufus-4.8.exe (ext: .exe) (category: executable) (from: D: - internal)
 [2025-07-15 11:27:35] PASTED: C:\Users\marvin\Desktop\rufus-4.8.exe (ext: .exe) (category: executable) (to: C: - internal)
+[2025-07-17 12:21:19] TEXT: poetry run python cliplog.py
+[2025-07-17 12:22:36] FILE: E:\docs\CLEARANCE report.docx (ext: .docx) (category: document) (from: E: - internal)
+[2025-07-17 12:22:53] PASTED: C:\Users\marvin\Desktop\CLEARANCE report.docx (ext: .docx) (category: document) (to: C: - internal)
+[2025-07-17 12:24:17] TEXT: $ poetry run python cliplogger/main.py
+Clipboard logger started. Press Ctrl+C to stop.
+Starting file system monitoring...
+C:\Users\marvin\AppData\Local\pypoetry\Cache\virtualenvs\cliplogger-Z2XfiHQJ-py3.13\Lib\site-packages\wmi.py:32: SyntaxWarnipe sequence '\_'
+  `GetObjectText\_` method being called, which usually produces
+C:\Users\marvin\AppData\Local\pypoetry\Cache\virtualenvs\cliplogger-Z2XfiHQJ-py3.13\Lib\site-packages\wmi.py:917: SyntaxWarning: invalce '\_'
+Monitoring C:\ (internal)
+Monitoring E:\ (internal)
+Monitoring 2 drives
+[2025-07-17 12:21:19] TEXT: poetry run python cliplog.py
+[2025-07-17 12:22:36] FILE: E:\docs\CLEARANCE report.docx (ext: .docx) (category: document) (from: E: - internal)
+Tracking copied files: ['CLEARANCE report.docx']
+Detected paste: CLEARANCE report.docx -> C:\Users\marvin\Desktop\CLEARANCE report.docx (internal)
+[2025-07-17 12:22:53] PASTED: C:\Users\marvin\Desktop\CLEARANCE report.docx (ext: .docx) (category: document) (to: C: - internal)
+
+[2025-07-17 12:27:05] TEXT:  fix it in wmi.py by escaping the backslash properly
+[2025-07-17 12:27:14] TEXT: print("\nClipboard logger stopped.")
+[2025-07-17 12:28:26] TEXT:  "\n")
+[2025-07-17 12:30:12] TEXT: GetObjectText
+[2025-07-17 12:32:20] TEXT: poetry env info --path
+
+[2025-07-17 12:35:16] TEXT: poetry env info --path
+
+[2025-07-17 12:46:29] TEXT: Mouse/Keyboard input	Drag, drop, Ctrl keys	mouse, keyboard
+[2025-07-17 12:47:36] TEXT: Windows clipboard (CF_HDROP for files) only contains data during explicit "Copy" or "Cut" actions from Explorer or Ctrl+C. But:
+
+🖱 Drag and drop = bypasses clipboard
+[2025-07-17 12:47:52] TEXT: direct I/O
+[2025-07-17 12:59:04] TEXT: Tracking all shell/user file ops is very invasive. Be sure you're doing this ethically and legally — such tools are often flagged as spyware or malware by antivirus systems.
+[2025-07-17 12:59:17] DRAG_START: from (471, 436) to (463, 359)
+[2025-07-17 12:59:19] DRAG_START: from (487, 357) to (352, 406)
+[2025-07-17 12:59:53] DRAG_START: from (34, 231) to (40, 314)
+[2025-07-17 13:07:15] DRAG_START: from (708, 244) to (511, 251)
+[2025-07-17 13:07:31] DRAG_START: from (529, 383) to (495, 365)
+[2025-07-17 13:08:06] TEXT: Tracking all shell/user file ops is very invasive. Be sure you're doing this ethically and legally — such tools are often flagged as spyware or malware by antivirus systems.
+[2025-07-17 13:08:13] DRAG_START: from Window:DirectUIHWND at (521, 380) to Window:DirectUIHWND at (396, 413)
+[2025-07-17 13:08:17] DRAG_START: from Window:DirectUIHWND at (504, 356) to Tree View at (338, 429)
+[2025-07-17 13:08:33] DRAG_START: from Chrome Legacy Window at (948, 464) to Chrome Legacy Window at (952, 323)
+[2025-07-17 13:08:56] DRAG_START: from Chrome Legacy Window at (900, 390) to Chrome Legacy Window at (592, 384)
+[2025-07-17 13:09:06] DRAG_DROP: Window:DirectUIHWND -> Window:DirectUIHWND (ext: ) (category: unknown) (from:  - unknown to:  - unknown)
+[2025-07-17 13:09:06] DRAG_DROP: from Window:DirectUIHWND at (500, 468) to Window:DirectUIHWND at (485, 383) (distance: 86.3px)
+[2025-07-17 13:09:07] FILE: C:\Users\marvin\Desktop\CLEARANCE report.docx (ext: .docx) (category: document) (from: C: - internal)
+[2025-07-17 13:09:07] FILE: C:\Users\marvin\Desktop\Screenshot_1.png (ext: .png) (category: image) (from: C: - internal)
+[2025-07-17 13:09:11] PASTED: C:\Users\marvin\Desktop\New folder\CLEARANCE report.docx (ext: .docx) (category: document) (to: C: - internal)
+[2025-07-17 13:09:11] PASTED: C:\Users\marvin\Desktop\New folder\Screenshot_1.png (ext: .png) (category: image) (to: C: - internal)
+[2025-07-17 13:09:15] DRAG_START: from Chrome Legacy Window at (1090, 569) to Chrome Legacy Window at (827, 511)
+[2025-07-17 13:09:18] DRAG_START: from Chrome Legacy Window at (948, 595) to Chrome Legacy Window at (724, 511)
+[2025-07-17 13:09:27] TEXT: [2025-07-17 13:08:06] TEXT: Tracking all shell/user file ops is very invasive. Be sure you're doing this ethically and legally — such tools are often flagged as spyware or malware by antivirus systems.
+[2025-07-17 13:08:13] DRAG_START: from Window:DirectUIHWND at (521, 380) to Window:DirectUIHWND at (396, 413)
+[2025-07-17 13:08:17] DRAG_START: from Window:DirectUIHWND at (504, 356) to Tree View at (338, 429)
+[2025-07-17 13:08:33] DRAG_START: from Chrome Legacy Window at (948, 464) to Chrome Legacy Window at (952, 323)
+[2025-07-17 13:08:56] DRAG_START: from Chrome Legacy Window at (900, 390) to Chrome Legacy Window at (592, 384)
+[2025-07-17 13:09:06] DRAG_DROP: Window:DirectUIHWND -> Window:DirectUIHWND (ext: ) (category: unknown) (from:  - unknown to:  - unknown)
+[2025-07-17 13:09:06] DRAG_DROP: from Window:DirectUIHWND at (500, 468) to Window:DirectUIHWND at (485, 383) (distance: 86.3px)
+[2025-07-17 13:09:07] FILE: C:\Users\marvin\Desktop\CLEARANCE report.docx (ext: .docx) (category: document) (from: C: - internal)
+[2025-07-17 13:09:07] FILE: C:\Users\marvin\Desktop\Screenshot_1.png (ext: .png) (category: image) (from: C: - internal)
+Tracking copied files: ['CLEARANCE report.docx', 'Screenshot_1.png']
+Detected paste: CLEARANCE report.docx -> C:\Users\marvin\Desktop\New folder\CLEARANCE report.docx (internal)
+[2025-07-17 13:09:11] PASTED: C:\Users\marvin\Desktop\New folder\CLEARANCE report.docx (ext: .docx) (category: document) (to: C: - internal)
+Detected paste: Screenshot_1.png -> C:\Users\marvin\Desktop\New folder\Screenshot_1.png (internal)
+[2025-07-17 13:09:11] PASTED: C:\Users\marvin\Desktop\New folder\Screenshot_1.png (ext: .png) (category: image) (to: C: - internal)
+[2025-07-17 13:09:15] DRAG_START: from Chrome Legacy Window at (1090, 569) to Chrome Legacy Window at (827, 511)
+[2025-07-17 13:09:18] DRAG_START: from Chrome Legacy Window at (948, 595) to Chrome Legacy Window at (724, 511)
+[2025-07-17 13:12:51] DRAG_START: from Chrome Legacy Window at (1013, 182) to Chrome Legacy Window at (1028, 265)
+[2025-07-17 13:13:04] DRAG_START: from Chrome Legacy Window at (788, 271) to Chrome Legacy Window at (787, 454)
+[2025-07-17 13:16:12] DRAG_START: from Chrome Legacy Window at (310, 330) to Chrome Legacy Window at (542, 339)
+[2025-07-17 13:17:00] DRAG_START: from Chrome Legacy Window at (111, 643) to Chrome Legacy Window at (99, 643)
+[2025-07-17 13:21:53] TEXT: [2025-07-17 13:08:06] TEXT: Tracking all shell/user file ops is very invasive. Be sure you're doing this ethically and legally — such tools are often flagged as spyware or malware by antivirus systems.
+[2025-07-17 13:08:13] DRAG_START: from Window:DirectUIHWND at (521, 380) to Window:DirectUIHWND at (396, 413)
+[2025-07-17 13:08:17] DRAG_START: from Window:DirectUIHWND at (504, 356) to Tree View at (338, 429)
+[2025-07-17 13:08:33] DRAG_START: from Chrome Legacy Window at (948, 464) to Chrome Legacy Window at (952, 323)
+[2025-07-17 13:08:56] DRAG_START: from Chrome Legacy Window at (900, 390) to Chrome Legacy Window at (592, 384)
+[2025-07-17 13:09:06] DRAG_DROP: Window:DirectUIHWND -> Window:DirectUIHWND (ext: ) (category: unknown) (from:  - unknown to:  - unknown)
+[2025-07-17 13:09:06] DRAG_DROP: from Window:DirectUIHWND at (500, 468) to Window:DirectUIHWND at (485, 383) (distance: 86.3px)
+[2025-07-17 13:09:07] FILE: C:\Users\marvin\Desktop\CLEARANCE report.docx (ext: .docx) (category: document) (from: C: - internal)
+[2025-07-17 13:09:07] FILE: C:\Users\marvin\Desktop\Screenshot_1.png (ext: .png) (category: image) (from: C: - internal)
+Tracking copied files: ['CLEARANCE report.docx', 'Screenshot_1.png']
+Detected paste: CLEARANCE report.docx -> C:\Users\marvin\Desktop\New folder\CLEARANCE report.docx (internal)
+[2025-07-17 13:09:11] PASTED: C:\Users\marvin\Desktop\New folder\CLEARANCE report.docx (ext: .docx) (category: document) (to: C: - internal)
+Detected paste: Screenshot_1.png -> C:\Users\marvin\Desktop\New folder\Screenshot_1.png (internal)
+[2025-07-17 13:09:11] PASTED: C:\Users\marvin\Desktop\New folder\Screenshot_1.png (ext: .png) (category: image) (to: C: - internal)
+[2025-07-17 13:09:15] DRAG_START: from Chrome Legacy Window at (1090, 569) to Chrome Legacy Window at (827, 511)
+[2025-07-17 13:09:18] DRAG_START: from Chrome Legacy Window at (948, 595) to Chrome Legacy Window at (724, 511)
+[2025-07-17 13:22:17] DRAG_START: from C:\Users\marvin\Desktop\New folder at (602, 19) to C:\Users\marvin\Desktop\New folder at (712, 150)
+[2025-07-17 13:24:14] TEXT: [2025-07-17 13:08:06] TEXT: Tracking all shell/user file ops is very invasive. Be sure you're doing this ethically and legally — such tools are often flagged as spyware or malware by antivirus systems.
+[2025-07-17 13:08:13] DRAG_START: from Window:DirectUIHWND at (521, 380) to Window:DirectUIHWND at (396, 413)
+[2025-07-17 13:08:17] DRAG_START: from Window:DirectUIHWND at (504, 356) to Tree View at (338, 429)
+[2025-07-17 13:08:33] DRAG_START: from Chrome Legacy Window at (948, 464) to Chrome Legacy Window at (952, 323)
+[2025-07-17 13:08:56] DRAG_START: from Chrome Legacy Window at (900, 390) to Chrome Legacy Window at (592, 384)
+[2025-07-17 13:09:06] DRAG_DROP: Window:DirectUIHWND -> Window:DirectUIHWND (ext: ) (category: unknown) (from:  - unknown to:  - unknown)
+[2025-07-17 13:09:06] DRAG_DROP: from Window:DirectUIHWND at (500, 468) to Window:DirectUIHWND at (485, 383) (distance: 86.3px)
+[2025-07-17 13:09:07] FILE: C:\Users\marvin\Desktop\CLEARANCE report.docx (ext: .docx) (category: document) (from: C: - internal)
+[2025-07-17 13:09:07] FILE: C:\Users\marvin\Desktop\Screenshot_1.png (ext: .png) (category: image) (from: C: - internal)
+Tracking copied files: ['CLEARANCE report.docx', 'Screenshot_1.png']
+Detected paste: CLEARANCE report.docx -> C:\Users\marvin\Desktop\New folder\CLEARANCE report.docx (internal)
+[2025-07-17 13:09:11] PASTED: C:\Users\marvin\Desktop\New folder\CLEARANCE report.docx (ext: .docx) (category: document) (to: C: - internal)
+Detected paste: Screenshot_1.png -> C:\Users\marvin\Desktop\New folder\Screenshot_1.png (internal)
+[2025-07-17 13:09:11] PASTED: C:\Users\marvin\Desktop\New folder\Screenshot_1.png (ext: .png) (category: image) (to: C: - internal)
+[2025-07-17 13:09:15] DRAG_START: from Chrome Legacy Window at (1090, 569) to Chrome Legacy Window at (827, 511)
+[2025-07-17 13:09:18] DRAG_START: from Chrome Legacy Window at (948, 595) to Chrome Legacy Window at (724, 511)
+[2025-07-17 13:25:12] TEXT: [2025-07-17 13:08:06] TEXT: Tracking all shell/user file ops is very invasive. Be sure you're doing this ethically and legally — such tools are often flagged as spyware or malware by antivirus systems.
+[2025-07-17 13:08:13] DRAG_START: from Window:DirectUIHWND at (521, 380) to Window:DirectUIHWND at (396, 413)
+[2025-07-17 13:08:17] DRAG_START: from Window:DirectUIHWND at (504, 356) to Tree View at (338, 429)
+[2025-07-17 13:08:33] DRAG_START: from Chrome Legacy Window at (948, 464) to Chrome Legacy Window at (952, 323)
+[2025-07-17 13:08:56] DRAG_START: from Chrome Legacy Window at (900, 390) to Chrome Legacy Window at (592, 384)
+[2025-07-17 13:09:06] DRAG_DROP: Window:DirectUIHWND -> Window:DirectUIHWND (ext: ) (category: unknown) (from:  - unknown to:  - unknown)
+[2025-07-17 13:09:06] DRAG_DROP: from Window:DirectUIHWND at (500, 468) to Window:DirectUIHWND at (485, 383) (distance: 86.3px)
+[2025-07-17 13:09:07] FILE: C:\Users\marvin\Desktop\CLEARANCE report.docx (ext: .docx) (category: document) (from: C: - internal)
+[2025-07-17 13:09:07] FILE: C:\Users\marvin\Desktop\Screenshot_1.png (ext: .png) (category: image) (from: C: - internal)
+Tracking copied files: ['CLEARANCE report.docx', 'Screenshot_1.png']
+Detected paste: CLEARANCE report.docx -> C:\Users\marvin\Desktop\New folder\CLEARANCE report.docx (internal)
+[2025-07-17 13:09:11] PASTED: C:\Users\marvin\Desktop\New folder\CLEARANCE report.docx (ext: .docx) (category: document) (to: C: - internal)
+Detected paste: Screenshot_1.png -> C:\Users\marvin\Desktop\New folder\Screenshot_1.png (internal)
+[2025-07-17 13:09:11] PASTED: C:\Users\marvin\Desktop\New folder\Screenshot_1.png (ext: .png) (category: image) (to: C: - internal)
+[2025-07-17 13:09:15] DRAG_START: from Chrome Legacy Window at (1090, 569) to Chrome Legacy Window at (827, 511)
+[2025-07-17 13:09:18] DRAG_START: from Chrome Legacy Window at (948, 595) to Chrome Legacy Window at (724, 511)
+[2025-07-17 13:27:30] TEXT: pip install pywin32
+[2025-07-17 13:27:44] FILE: D:\Screenshot_1.png (ext: .png) (category: image) (from: D: - external)
+[2025-07-17 13:27:47] PASTED: C:\Users\marvin\Documents\Screenshot_1.png (ext: .png) (category: image) (to: C: - internal)
+[2025-07-17 13:29:55] FILE: D:\CLEARANCE report.docx (ext: .docx) (category: document) (from: D: - external)
+[2025-07-17 13:29:58] PASTED: C:\Users\marvin\Desktop\CLEARANCE report.docx (ext: .docx) (category: document) (to: C: - internal)
+[2025-07-17 13:30:17] TEXT:  poetry run python cliplogger/main.py
+Clipboard logger with input monitoring started. Press Ctrl+C to stop.
+Starting file system monitoring...
+Monitoring C:\ (internal)
+Monitoring D:\ (external)
+Monitoring E:\ (internal)
+Monitoring 3 drives
+Starting input monitoring (file operations only)...
+Input monitoring started
+[2025-07-17 13:27:30] TEXT: pip install pywin32
+[2025-07-17 13:27:44] FILE: D:\Screenshot_1.png (ext: .png) (category: image) (from: D: - external)
+Tracking copied files: ['Screenshot_1.png']
+Detected paste: Screenshot_1.png -> C:\Users\marvin\Documents\Screenshot_1.png (internal)
+[2025-07-17 13:27:47] PASTED: C:\Users\marvin\Documents\Screenshot_1.png (ext: .png) (category: image) (to: 
+C: - internal)
+[2025-07-17 13:29:55] FILE: D:\CLEARANCE report.docx (ext: .docx) (category: document) (from: D: - external)Tracking copied files: ['CLEARANCE report.docx']
+Detected paste: CLEARANCE report.docx -> C:\Users\marvin\Desktop\CLEARANCE report.docx (internal)
+[2025-07-17 13:29:58] PASTED: C:\Users\marvin\Desktop\CLEARANCE report.docx (ext: .docx) (category: document) (to: C: - internal)
+[2025-07-17 13:39:26] TEXT:  poetry run python cliplogger/main.py
+Clipboard logger with input monitoring started. Press Ctrl+C to stop.
+Starting file system monitoring...
+Monitoring C:\ (internal)
+Monitoring D:\ (external)
+Monitoring E:\ (internal)
+Monitoring 3 drives
+Starting input monitoring (file operations only)...
+Input monitoring started
+[2025-07-17 13:27:30] TEXT: pip install pywin32
+[2025-07-17 13:27:44] FILE: D:\Screenshot_1.png (ext: .png) (category: image) (from: D: - external)
+Tracking copied files: ['Screenshot_1.png']
+Detected paste: Screenshot_1.png -> C:\Users\marvin\Documents\Screenshot_1.png (internal)
+[2025-07-17 13:27:47] PASTED: C:\Users\marvin\Documents\Screenshot_1.png (ext: .png) (category: image) (to: 
+C: - internal)
+[2025-07-17 13:29:55] FILE: D:\CLEARANCE report.docx (ext: .docx) (category: document) (from: D: - external)Tracking copied files: ['CLEARANCE report.docx']
+Detected paste: CLEARANCE report.docx -> C:\Users\marvin\Desktop\CLEARANCE report.docx (internal)
+[2025-07-17 13:29:58] PASTED: C:\Users\marvin\Desktop\CLEARANCE report.docx (ext: .docx) (category: document) (to: C: - internal)
+[2025-07-17 13:40:03] DRAG_START: from Tree View at (761, 346) to Tree View at (807, 497)
+[2025-07-17 13:40:20] DRAG_START: from Chrome Legacy Window at (830, 493) to Chrome Legacy Window at (783, 498)
+[2025-07-17 13:40:24] TEXT:  Tree View
+[2025-07-17 13:50:15] DRAG_START: from Chrome Legacy Window at (426, 368) to Chrome Legacy Window at (582, 369)
+[2025-07-17 13:50:17] DRAG_START: from Chrome Legacy Window at (1160, 370) to Chrome Legacy Window at (822, 353)
+[2025-07-17 13:50:21] DRAG_START: from Chrome Legacy Window at (1172, 368) to Chrome Legacy Window at (769, 358)

@@ -23,7 +23,7 @@ poetry install
 Run the clipboard logger:
 
 ```bash
-poetry run python cliplog.py
+poetry run python cliplogger/main.py
 ```
 
 Or activate the Poetry shell and run:

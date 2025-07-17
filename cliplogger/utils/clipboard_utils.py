@@ -1,6 +1,7 @@
 import win32clipboard
 import win32con
 
+
 def get_clipboard_content():
     """Get clipboard content and determine its type."""
     win32clipboard.OpenClipboard()
@@ -8,12 +9,12 @@ def get_clipboard_content():
         # Check for file list
         if win32clipboard.IsClipboardFormatAvailable(win32con.CF_HDROP):
             files = win32clipboard.GetClipboardData(win32con.CF_HDROP)
-            return 'files', list(files)
+            return "files", list(files)
         # Check for text
         elif win32clipboard.IsClipboardFormatAvailable(win32con.CF_UNICODETEXT):
             text = win32clipboard.GetClipboardData(win32con.CF_UNICODETEXT)
-            return 'text', text
+            return "text", text
         else:
-            return 'unknown', None
+            return "unknown", None
     finally:
         win32clipboard.CloseClipboard()
